@@ -2,7 +2,7 @@
 <html>
 <style type="text/css">
 	body {
-		background-color: #031A28;
+		background-color: white;
 		margin: 0;
 		padding: 0;
 		font-family: Arial, Helvetica, "sans-serif";
@@ -33,24 +33,33 @@ a:active {
 	}
 	li a {
 		font-size: 20px;
-		padding: 13px 16px;
+		padding: 13.5px 16px;
 		margin: 0;
 		color: white;
 		overflow: hidden;
 		display: inline-block;
 		text-align: center;
-		
+		transition: background-color 0.6s ease-in-out;
+	}
+	li a:hover {
+  		background-color: black;
+		color: white;
+		transition: background-color 0.6s ease-in-out;
+	}
+	.active {
+		background-color: #44AF69;
+		color: white;
 	}
 </style>
 <body>
 <menu class="menu_bar">
-	<li><a href="https://blumeland.github.io/">Accueil</a></li>
+	<li><a class="active" href="https://blumeland.github.io/">Accueil</a></li>
 	<li><a href="https://blumeland.github.io/langue.html">Langue</a></li>
 	<li><a href="https://blumeland.github.io/pays.html">Pays</a></li>
 	<li><a href="https://blumeland.github.io/lois.html">Lois</a></li>
 </menu>
-<p style="color: #FCCB38; font-size: 35px;">Драль Мерт!</p>
-<p style="color: #FCCB38;">Dobro kommëvan nau ofixialen websajt ot Blümeland projekta.</p>
-<p style="color: #FCCB38;">Добро коммеван нау официалън ввэбсайт от Блюмланд проъекта.</p>
+<p style="color: black; font-size: 35px;">Драль Мерт!</p>
+<p style="color: black;">Dobro kommëvan nau ofixialen websajt ot Blümeland projekta.</p>
+<p style="color: black;">Добро коммеван нау официалън ввэбсайт от Блюмланд проъекта.</p>
 </body>
 </html>
